@@ -11,6 +11,45 @@
     <title>Hello, world!</title>
   </head>
   <body>
+    <div class="container">
+        <!--Nav Bar Start-->
+        <nav class="nav nav-pills flex-column flex-sm-row">
+          <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Active</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="#">Longer nav link</a>
+          <a class="flex-sm-fill text-sm-center nav-link" href="#">Link</a>
+          <a class="flex-sm-fill text-sm-center nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </nav>
+        <!--Nav Bar End-->
+         <!--Exercise 1: recrate table with bootstap only-->
+          <div class="row" style="border:1px solid; border-radius:5px;height: 400px;">
+            <div class="col-6"  style="
+              display: flex;
+              border-right: 1px solid;
+              background: #6BB56B;
+              align-items: center;
+              justify-content: center;">Hello! I am first block and I am centered</div>
+            <div class="col-2" style="
+             display: flex; 
+             flex-direction: column;
+              background: #299BFF;
+              justify-items:flex-end;
+              align-items:stretch;">Hello! I am second column and I am align to bottom</div>
+            <div class="col-4">
+              <div class="row" style="display: flex;
+              flex-direction: column;">
+                <div class="col">
+                  First Inner Element
+                </div>
+                <div class="col">
+                  First Inner Element
+                </div>
+                <div class="col">
+                  First Inner Element
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     
     <div class="container">
         <div class="card-deck mb-3 text-center">
@@ -63,14 +102,14 @@
 
         <!-- EXERCISE 3 -->
 
-        <section id ="deal-week" style="background-color: rgb(248, 248, 248);">
+        <section id ="deal-week" class="mt-3" style="background-color: rgb(248, 248, 248);">
           <div class="container">
             <div class="row mb-4 row-cols-sm-2 row-cols-md-3 row-cols-lg-3">
               <div class="col">
                 <div class="card">
                   <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Europe</h5>
+                    <h5 class="card-title">Movie</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <button type="button" class="btn btn-outline-dark">view</button>
                     <button type="button" class="btn btn-outline-dark">edit</button>
@@ -81,7 +120,7 @@
                 <div class="card">
                   <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">America</h5>
+                    <h5 class="card-title">Movie</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <button type="button" class="btn btn-outline-dark">view</button>
                     <button type="button" class="btn btn-outline-dark">edit</button>
@@ -92,7 +131,7 @@
                 <div class="card">
                   <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <h5 class="card-title">Africa</h5>
+                    <h5 class="card-title">Movie</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <button type="button" class="btn btn-outline-dark">view</button>
                     <button type="button" class="btn btn-outline-dark">edit</button>
@@ -105,7 +144,7 @@
                   <div class="card">
                     <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Europe</h5>
+                      <h5 class="card-title">Movie</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <button type="button" class="btn btn-outline-dark">view</button>
                       <button type="button" class="btn btn-outline-dark">edit</button>
@@ -116,7 +155,7 @@
                   <div class="card">
                     <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">America</h5>
+                      <h5 class="card-title">Movie</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <button type="button" class="btn btn-outline-dark">view</button>
                       <button type="button" class="btn btn-outline-dark">edit</button>
@@ -127,7 +166,7 @@
                   <div class="card">
                     <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Africa</h5>
+                      <h5 class="card-title">Movie</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <button type="button" class="btn btn-outline-dark">view</button>
                       <button type="button" class="btn btn-outline-dark">edit</button>
@@ -140,7 +179,7 @@
                   <div class="card">
                     <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Europe</h5>
+                      <h5 class="card-title">Movie</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <button type="button" class="btn btn-outline-dark">view</button>
                       <button type="button" class="btn btn-outline-dark">edit</button>
@@ -151,7 +190,7 @@
                   <div class="card">
                     <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">America</h5>
+                      <h5 class="card-title">Movie</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <button type="button" class="btn btn-outline-dark">view</button>
                       <button type="button" class="btn btn-outline-dark">edit</button>
@@ -162,7 +201,7 @@
                   <div class="card">
                     <img src="https://source.unsplash.com/random/100x50" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Africa</h5>
+                      <h5 class="card-title">Movie</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <button type="button" class="btn btn-outline-dark">view</button>
                       <button type="button" class="btn btn-outline-dark">edit</button>
@@ -172,7 +211,65 @@
               </div>  
             </div>
             </section>
+            <div class="container">
+                <div class="row mb-4">
+                  <div class="col-8">
+                  <div class="heading d-table-cell">
+                   <h1>Heading of Blog</h1><p>secondary of text</p>
+                  </div>
+                  <div class="post-blog">
+                    <div class="card" >
+                      <img src="https://www.anita.com/blog/us/wp-content/uploads/sites/3/2016/02/blog-success.jpg" class="card-img-top" alt="blog-image">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                      </div>
+                      <div class="card-footer text-muted">
+                        Posted on January 12, 2020 by Admin
+                    </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="row mb-4">
+                    <div class="col-8">
+                    
+                    <div class="post-blog">
+                      <div class="card" >
+                        <img src="https://www.anita.com/blog/us/wp-content/uploads/sites/3/2016/02/blog-success.jpg" class="card-img-top" alt="blog-image">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                        <div class="card-footer text-muted">
+                          Posted on January 12, 2020 by Admin
+                      </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="row mb-4">
+                      <div class="col-8">
+                      <div class="post-blog">
+                        <div class="card" >
+                          <img src="https://www.anita.com/blog/us/wp-content/uploads/sites/3/2016/02/blog-success.jpg" class="card-img-top" alt="blog-image">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                          </div>
+                          <div class="card-footer text-muted">
+                            Posted on January 12, 2020 by Admin
+                        </div>
+                      </div>
+                      </div>
+                  <div class="col-4">
+                
+                  </div>
+                </div>
+              </div>
             <!-- EXERCISE  5  -->
+            <div class = "container">
             <footer class="pt-4 my-md-5 pt-md-5 border-top">
                 <div class="row">
                   <div class="col-6 col-md">
@@ -206,6 +303,7 @@
                   </div>
                 </div>
               </footer>
+            </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </body>
